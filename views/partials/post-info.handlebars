@@ -1,0 +1,19 @@
+<article class="post card p-3 m-3">
+    <div class="card-body">
+        <h3 class="card-title">
+            {{title}}
+        </h3>
+
+        <h6 class="meta card-subtitle">
+            Posted by {{user.username}} on {{format_date created_at}}
+        </h6>
+        <hr>
+        <div class="content-body mt-3">
+            {{content}}
+            <div>
+                {{comments.length}} {{format_plural 'comment' comments.length}}
+            </div>
+        </div>
+
+    </div>
+</article>
