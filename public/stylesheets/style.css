@@ -63,8 +63,15 @@ nav a:hover,
 
 textarea {
     width: 100%;
+    margin-top: 20px;
 }
 
+button[type="submit"] {
+    margin-top: 10px;
+}
+
+.delete-post-btn,
+button[type="submit"],
 .edit-link,
 #addPost-btn,
 .btn,
@@ -76,6 +83,8 @@ textarea {
     color: tomato;
 }
 
+.delete-post-btn:hover,
+button[type="submit"]:hover,
 .edit-link:hover,
 #addPost-btn:hover,
 .btn:hover,
@@ -104,4 +113,10 @@ main {
 
 .row {
     margin-right: 0;
+}
+
+.login-form {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
 }
